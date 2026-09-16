@@ -12,7 +12,8 @@
 > *End-to-end platform engineering: enterprise business case, dimensional data model, SQL-native feature/reward engineering, in-database bandit policy training, safety-gated recommendation service, and an executive Power BI decision layer.*
 
 <p align="center">
-  <img width="100%" alt="Apex Horizon HVAC Contextual Bandit — Executive Dashboard, Use Case A" src="docs/dashboards/use_case_a_executive_dashboard.png" />
+  <img width="1536" height="1024" alt="use_case_a_executive_dashboard" src="https://github.com/user-attachments/assets/f3b0626e-b790-4c3c-82ba-40565438e62d" />
+
 </p>
 
 <p align="center"><em>Use Case A — Zone/Zone-Group Set-Point Selection: portfolio-level energy cost exposure, mean composite reward by policy, hard comfort violations by climate zone, and comfort-vs-cost tradeoffs, live from PostgreSQL.</em></p>
@@ -213,29 +214,14 @@ Then connect **Power BI** exclusively to the `recommendations.vw_latest_zone_rec
 ---
 
 ## 🖥️ Dashboard Gallery — All Four Use Cases
+<img width="1536" height="1024" alt="use_case_a_executive_dashboard" src="https://github.com/user-attachments/assets/66c547e9-baff-4d2c-ad40-04998ae7e9fd" />
 
-<table>
-<tr>
-<td width="50%">
-<p align="center"><strong>Use Case A — Zone Set-Point Selection</strong></p>
-<img src="docs/dashboards/use_case_a_executive_dashboard.png" width="100%" alt="Use Case A dashboard" />
-</td>
-<td width="50%">
-<p align="center"><strong>Use Case B — Multi-Zone Coordination</strong></p>
-<img src="docs/dashboards/use_case_b_multizone_coordination.jpeg" width="100%" alt="Use Case B dashboard" />
-</td>
-</tr>
-<tr>
-<td width="50%">
-<p align="center"><strong>Use Case C — Tariff- & DR-Aware Pre-Conditioning</strong></p>
-<img src="docs/dashboards/use_case_c_tariff_dr_preconditioning.png" width="100%" alt="Use Case C dashboard" />
-</td>
-<td width="50%">
-<p align="center"><strong>Use Case D — Equipment Aging & Maintenance Mitigation</strong></p>
-<img src="docs/dashboards/use_case_d_equipment_health.jpeg" width="100%" alt="Use Case D dashboard" />
-</td>
-</tr>
-</table>
+<img width="1262" height="832" alt="use_case_b_multizone_coordination" src="https://github.com/user-attachments/assets/dfca94c1-75ae-4902-b442-f58534b758bf" />
+
+<img width="1214" height="758" alt="use_case_c_tariff_dr_preconditioning" src="https://github.com/user-attachments/assets/237b45e5-9400-42b9-a325-e1f0dbe854a6" />
+
+<img width="1262" height="832" alt="use_case_d_equipment_health" src="https://github.com/user-attachments/assets/221906f1-e11d-433e-a866-146bcf839bab" />
+
 
 All four are exported from the same Power BI decision-support layer described above, reading exclusively from governed PostgreSQL tables and views — no dashboard queries any source outside the `curated`/`features`/`rewards`/`recommendations`/`monitoring` schemas.
 
